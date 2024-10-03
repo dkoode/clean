@@ -62,7 +62,7 @@ export default function NavBar() {
                             <a href="#iletisim" className="text-white text-lg font-medium">İletişim</a>
                         </li>
                         <li className="border-l-[1px] border-l-sky-500 pl-4">
-                            <a href="#iletisim" className="text-white text-lg font-medium">Teklif Al</a>
+                            <a href="#iletisim" className="text-white text-lg font-medium text-nowrap">Teklif Al</a>
                         </li>
                     </ul>
                     <div className="absolute hidden md:flex -top-7 right-0">
