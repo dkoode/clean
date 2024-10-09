@@ -7,9 +7,9 @@ import { Flower2, Smile, Users } from 'lucide-react';
 export default function SubHero() {
     return (
         <section id="hakkimizda" className="container mx-auto">
-            <div className="w-full py-20 gap-4 flex md:flex-row flex-col items-center">
+            <div className="w-full py-20 gap-4 flex md:flex-row md:px-0 px-5 flex-col items-center">
                 <div className="flex flex-col md:flex-row md:items-center">
-                    <Image className="md:min-w-[350px]" src={subHeroImg} alt="Müjde Temizlik Hizmetleri" width={349} />
+                    <Image className="md:min-w-[350px] w-[200px]" src={subHeroImg} alt="Müjde Temizlik Hizmetleri" width={349} />
                 </div>
                 <div className="flex flex-col gap-y-2">
                     <span className=" text-sky-500 font-bold">
