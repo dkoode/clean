@@ -19,7 +19,7 @@ export default function NavBar() {
                         </p>
                     </div>
                     <div className="flex items-center">
-                        <Link href="#">
+                        <Link href="https://wa.me/905434718834?text=Merhaba, bilgi almak istiyorum.">
                             <p className="text-sm flex items-center gap-x-2">
                                 <Image src={whatsapp} width={20} />
                                 Whatsapp iletişim
@@ -38,14 +38,14 @@ export default function NavBar() {
                         <PhoneCall size={34} className="text-sky-900" strokeWidth={1} />
                         <div className="flex flex-col">
                             <p className="text-sky-900 text-base font-semibold">Bizi Arayın!</p>
-                            <Link href="tel:05322222222" className="text-sky-900 text-sm font-medium">0532 222 22 22</Link>
+                            <Link href="tel:05434718834" className="text-sky-900 text-sm font-medium">+90 543 471 88 34</Link>
                         </div>
                     </div>
                     <div className="flex items-center gap-x-3 pl-4">
                         <MapPin size={34} className="text-sky-900" strokeWidth={2} />
                         <div className="flex flex-col">
                             <p className="text-sky-900 text-base font-semibold">Adresimiz</p>
-                            <Link href="tel:05322222222" className="text-sky-900 text-sm font-medium">Örnek mahalle, örnek semt, no:15</Link>
+                            <Link href="tel:05434718834" className="text-sky-900 text-sm font-medium">Örnek mahalle, örnek semt, no:15</Link>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ export default function NavBar() {
                     </ul>
                     <div className="absolute hidden md:flex -top-8 right-0">
                         <Image src={badge} className="relative" alt="badge" width={250} />
-                        <Link href="tel:05322222222" className="flex  items-center gap-2 text-nowrap text-sky-900 text-base font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                        <Link href="tel:05434718834" className="flex  items-center gap-2 text-nowrap text-sky-900 text-base font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                             Hemen Teklif Alın!
                         </Link>
                     </div>
